@@ -1,0 +1,36 @@
+name: duke_power_outages
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - python-dotenv
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pyarrow
+  - fastparquet
+  - scikit-learn
+  - openpyxl
+  - httpx
+  - backoff
+  - socksio
+  - aiolimiter
+  - pytest
+  - dash
+  - dash-bootstrap-components
+  - apscheduler
+  - pip:
+    - blinker==1.7.0 # Version required for selenium-wire
+    - selenium-wire
+    - mkdocs
+    - -e .
